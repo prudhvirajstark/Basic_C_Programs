@@ -2,15 +2,15 @@
 #include<conio.h>
 void main()
 {
-int a;
+signed int a;
 scanf("%d",&a);
  if(a>0)
  {
-  printf("%d",a%100);
+printf("%d is a positive number",a);
  }
  else if(a<0)
  {
-  printf("0");
+printf("% is a negative number",a);
  }
  else
  {
