@@ -2,12 +2,12 @@
 #include<conio.h>
 void main()
 {
-int i,sum=0;
+int i,s=0;
 printf("enter the value of n");
 scanf("%d",&n);
 for(i=0;i<=n;i++)
 {
-sum=sum+i;
+s=s+i;
 }
-printf("sum of %d natural numbers %d",n,sum);
+printf("sum of %d natural numbers %d",n,s);
 }
