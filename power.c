@@ -6,5 +6,5 @@ void main()
 int i,j,p;
 scanf("%d %d",&i,&j);
 p=pow(i,j);
-printf("%d",pow);
+printf("%d",p);
 }
