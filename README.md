@@ -41,11 +41,12 @@ Try to compile and then Run the tests
 
 Contributors names and contact info
 
-ex. Prudhvi raj   
-ex. [@prudhvi051](https://twitter.com/prudhvi051)
+Prudhvi raj - [@prudhvi051](https://twitter.com/prudhvi051)
 
 ## Version History
 
+* 0.2
+    * Updated the READme and the folder structures.
 * 0.1
     * Initial Release
 
