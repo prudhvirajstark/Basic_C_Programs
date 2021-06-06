@@ -17,7 +17,7 @@ Or you use any text editor to edit the program files and download the C compiler
 ### Installing
 
 * How/where to download your program
-* <p><a href="https://turboc.me/download-turbo-c-file/">Click Here and download the latest turbo C. Then Execute the downloaded file and follow the on-Screen Instructions</a></p> 
+* <p><a href="https://turboc.me/download-turbo-c-file/">Click Here </a>and download the latest turbo C. Then Execute the downloaded file and follow the on-Screen Instructions</p> 
 
 ### Executing program
 
