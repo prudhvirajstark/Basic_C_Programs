@@ -1,0 +1,56 @@
+//use fork() api to create a child process
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/types.h>
+
+int main()
+{
+	int pid=fork();
+	printf("Program 1:Creating a hild using For API()");
+	if(pid==0)
+	{
+		printf("Child pid is %d, and parent PID is %d",getpid(),getppid());
+	}
+	else
+	{
+		printf("Child pid is %d, and parent PID is %d",getpid(),getppid());
+	}
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+//•	Uses a local and global variable to prove that fork creates a copy of the parent process and child has its own copy of variables to work on
+#include <stdio.h>
+#include <unistd.h>
+
+int A=0;
+int B=0;
+int main()
+{
+    int pid;
+
+    pid = fork();
+    printf("Program 1: Getting parent and child process\n");
+    if (pid == 0)
+    {
+    
+        printf("child pid = %d and parent pid = %d A is %d B is %d \n",getpid(), getppid(),A,B);
+    }
+
+    else
+    {
+        A++;
+        printf("parent pid = %d child pid = %d A is %d\n",getppid(),
+getpid(),A);
+        sleep(10);
+    }
+
+    return 0;
+}

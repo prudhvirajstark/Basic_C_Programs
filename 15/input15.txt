@@ -1,0 +1,33 @@
+RTOS Lab Assignment – Set 1
+Submission deadline: 19th August 2017
+
+Write and execute C programs to do the following tasks.
+1.	Get ten numbers from user. Store them in an array. Using functions, find sum, average and product of the numbers. Print the sum, average and product in the main function.
+2.	Modify the above program to continue to accept the input from the user until the user enters ‘999’. As the user inputs the number, the sum, average and product should be displayed in the main function. 
+3.	Read a string from a file. Count the number of characters in a given string without making use of the string library function. Use ‘for loop’. Get the input using ‘fscanf’. Use functions and pass string by reference.
+4.	Read a text stored in a file. Count the number of words and lines in the file. Use functions.
+5.	Read a text file called input.txt and segregate the even (2nd,4th, 6th …) and odd (1st,3rd,5th…) words into two different files names even.txt and odd.txt. Get the names of input and output files through command line arguments.
+6.	Read a text file called input.txt and change all the characters to uppercase characters (Eg: “ThisIsASampleText” should be changed to “THISISASAMPLETEXT”.
+7.	Get ten numbers from the user. Write a function to arrange them in ascending order and another function to arrange them in descending order. Print out the arranged sequence onto the console.
+8.	Read the numbers stored in a file named input.txt. Write a function to check if the number is divisible by 8. Create an output file named output.txt.  If it is divisible, write number ‘1’ into output file. If it is not divisible, write ‘0’ to the output file.
+9.	Create a telephone directory, with the first name, last name and telephone number. Provide the facility to order the entries of the directory according to the alphabetical ordering of the first name or based on the telephone number. Get the data from a file and use switch –case in your program. Provide user option to view entries ordered based on name or number. 
+10.	Compare two dates and display the latter one. Consider the date as consisting of day, month and year. Get the dates through user inputs through console. Use structures in this program.
+11.	Write a C program to find the factorial of the number entered by user. (eg: 5!=120)
+12.	Write a C program to read input.txt file to obtain information about the students such as name, course and marks. Use structures in the program. Display the names of students according to the ascending order of marks. Also find out grade of the student which is based on the marks of the student and accordingly write Grade of the student along with the student names into output.txt. Grade calculation may be done as below.
+Marks > = 90 then Grade = ‘A’, 
+Marks > = 70 and Marks < 90 then Grade = ‘B’, 
+Marks > = 40 and Marks < 70 then Grade = ‘C’,
+Else Grade = ‘D’
+
+
+
+
+
+
+13.	Modify the above program by adding one more functionality to read output.txt and display the number of students who have obtained Grade A.
+
+14.	Read a file in which numbers are stored. Segregate the even and odd numbers into two different files named even.txt and odd.txt.
+
+15.	Write a C program which reads input.txt, checks to see if the string contains a ‘F’ and if so, it breaks the string into another word and writes to output.txt.
+
+
